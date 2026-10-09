@@ -1,3 +1,6 @@
+/*==========================
+      GOOGLE FONTS
+==========================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
 
@@ -37,6 +40,9 @@ section{
     height: 100%;
     background: center center / cover no-repeat;
 }
+/*==========================
+        HEADER
+==========================*/
 
 header{
 
@@ -125,12 +131,18 @@ nav a:hover{
 
 }
 
+/*==========================
+          HERO
+==========================*/
 
 .hero{
 
     height:100vh;
-
-    background:url("pariss.png") center center / cover no-repeat;
+    min-height:680px;
+    background: linear-gradient(90deg, rgba(0,0,0,.82), rgba(0,0,0,.25)), url("../Boutique de Montres PARIS Luxe.png") center 55%/cover no-repeat;
+    justify-content:flex-start;
+    padding-top:100px;
+    text-align: center;
 
     display:flex;
 
@@ -145,19 +157,20 @@ nav a:hover{
 
 .overlay{
 
+
+    text-align: center;
+
     position:absolute;
-
     inset:0;
-
-    background:rgba(0,0,0,.55);
+    background:linear-gradient(90deg,rgba(0,0,0,.35),transparent);
 
 }
 
 .hero-content{
-
+    text-align: left;
     position:relative;
-
-    max-width:620px;
+    z-index:2;
+    max-width:650px;
 
 }
 
@@ -319,6 +332,9 @@ nav a:hover{
 
 }
 
+/*==========================
+        PRODUCTS
+==========================*/
 
 .products{
 
@@ -449,9 +465,12 @@ nav a:hover{
     color:#bbb;
 }
 
+/*==========================
+          BANNER
+==========================*/
 
 .banner{
-    background:url("../images/banner.jpg") center/cover;
+    background:linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.45)),url("../Boutique de Montres PARIS Luxe.png") center/cover;
     height:500px;
     position:relative;
     display:flex;
@@ -482,6 +501,10 @@ nav a:hover{
     margin-bottom:35px;
     font-size:18px;
 }
+
+/*==========================
+      NEWSLETTER
+==========================*/
 
 .newsletter{
     text-align:center;
@@ -529,6 +552,9 @@ nav a:hover{
     background:white;
 }
 
+/*==========================
+          FOOTER
+==========================*/
 
 footer{
     background:#050505;
@@ -564,6 +590,9 @@ footer{
     padding-left:10px;
 }
 
+/*==========================
+        SCROLLBAR
+==========================*/
 
 ::-webkit-scrollbar{
     width:10px;
@@ -577,6 +606,9 @@ footer{
     background:#111;
 }
 
+/*==========================
+        ANIMATION
+==========================*/
 
 .category-card,
 .product,
@@ -598,7 +630,9 @@ footer{
 
 }
 
-
+/*==========================
+       RESPONSIVE
+==========================*/
 
 @media(max-width:992px){
 
@@ -643,8 +677,8 @@ section{
 
     text-align:center;
     justify-content:center;
-
 }
+.hero-content{ text-align:center; }
 
 .buttons{
 
@@ -723,7 +757,7 @@ section{
 }
 .shop-banner{
     height:45vh;
-    background:url("../images/banner.jpg") center/cover;
+    background:linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.45)),url("../Boutique de Montres PARIS Luxe.png") center/cover;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -808,6 +842,9 @@ margin-bottom:20px;
 color:#bbb;
 
 }
+/*==========================
+        CONTACT
+==========================*/
 
 .contact{
 display:flex;
