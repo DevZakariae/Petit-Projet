@@ -1,6 +1,3 @@
-/*==========================
-      GOOGLE FONTS
-==========================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
 
@@ -40,9 +37,6 @@ section{
     height: 100%;
     background: center center / cover no-repeat;
 }
-/*==========================
-        HEADER
-==========================*/
 
 header{
 
@@ -131,9 +125,6 @@ nav a:hover{
 
 }
 
-/*==========================
-          HERO
-==========================*/
 
 .hero{
 
@@ -328,9 +319,6 @@ nav a:hover{
 
 }
 
-/*==========================
-        PRODUCTS
-==========================*/
 
 .products{
 
@@ -461,9 +449,6 @@ nav a:hover{
     color:#bbb;
 }
 
-/*==========================
-          BANNER
-==========================*/
 
 .banner{
     background:url("../images/banner.jpg") center/cover;
@@ -497,10 +482,6 @@ nav a:hover{
     margin-bottom:35px;
     font-size:18px;
 }
-
-/*==========================
-      NEWSLETTER
-==========================*/
 
 .newsletter{
     text-align:center;
@@ -548,9 +529,6 @@ nav a:hover{
     background:white;
 }
 
-/*==========================
-          FOOTER
-==========================*/
 
 footer{
     background:#050505;
@@ -586,9 +564,6 @@ footer{
     padding-left:10px;
 }
 
-/*==========================
-        SCROLLBAR
-==========================*/
 
 ::-webkit-scrollbar{
     width:10px;
@@ -602,9 +577,6 @@ footer{
     background:#111;
 }
 
-/*==========================
-        ANIMATION
-==========================*/
 
 .category-card,
 .product,
@@ -626,9 +598,7 @@ footer{
 
 }
 
-/*==========================
-       RESPONSIVE
-==========================*/
+
 
 @media(max-width:992px){
 
@@ -838,9 +808,6 @@ margin-bottom:20px;
 color:#bbb;
 
 }
-/*==========================
-        CONTACT
-==========================*/
 
 .contact{
 display:flex;
