@@ -1,6 +1,3 @@
-/*====================================
-        NAVBAR SCROLL EFFECT
-====================================*/
 
 const header = document.querySelector("header");
 
@@ -21,9 +18,6 @@ window.addEventListener("scroll", () => {
 });
 
 
-/*====================================
-        SCROLL TO TOP BUTTON
-====================================*/
 
 const topBtn = document.createElement("button");
 
@@ -72,10 +66,6 @@ topBtn.onclick = ()=>{
 };
 
 
-/*====================================
-        FADE ANIMATION
-====================================*/
-
 const observer = new IntersectionObserver((entries)=>{
 
 entries.forEach(entry=>{
@@ -104,10 +94,6 @@ observer.observe(item);
 });
 
 
-/*====================================
-        BUTTON HOVER
-====================================*/
-
 const buttons=document.querySelectorAll("button");
 
 buttons.forEach(btn=>{
@@ -127,9 +113,6 @@ btn.style.transform="scale(1)";
 });
 
 
-/*====================================
-        PRODUCT HOVER
-====================================*/
 
 const products=document.querySelectorAll(".product");
 
@@ -159,9 +142,6 @@ card.style.transform="rotateX(0) rotateY(0)";
 });
 
 
-/*====================================
-        LOADING EFFECT
-====================================*/
 
 window.addEventListener("load",()=>{
 
@@ -177,9 +157,6 @@ document.body.style.opacity="1";
 });
 
 
-/*====================================
-        NEWSLETTER
-====================================*/
 
 const subscribe=document.querySelector(".newsletter button");
 
