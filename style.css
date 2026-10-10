@@ -1,6 +1,3 @@
-/*==========================
-      GOOGLE FONTS
-==========================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
 
@@ -40,10 +37,6 @@ section{
     height: 100%;
     background: center center / cover no-repeat;
 }
-/*==========================
-        HEADER
-==========================*/
-
 header{
 
     position:fixed;
@@ -130,10 +123,6 @@ nav a:hover{
     color:#d4af37;
 
 }
-
-/*==========================
-          HERO
-==========================*/
 
 .hero{
 
@@ -260,10 +249,6 @@ nav a:hover{
 
 }
 
-/*==========================
-       CATEGORIES
-==========================*/
-
 .categories{
 
     text-align:center;
@@ -332,9 +317,6 @@ nav a:hover{
 
 }
 
-/*==========================
-        PRODUCTS
-==========================*/
 
 .products{
 
@@ -425,10 +407,6 @@ nav a:hover{
     border-color:#d4af37;
 
 }
-/*==========================
-        SERVICES
-==========================*/
-
 .services{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
@@ -465,10 +443,6 @@ nav a:hover{
     color:#bbb;
 }
 
-/*==========================
-          BANNER
-==========================*/
-
 .banner{
     background:linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.45)),url("../Boutique de Montres PARIS Luxe.png") center/cover;
     height:500px;
@@ -502,9 +476,6 @@ nav a:hover{
     font-size:18px;
 }
 
-/*==========================
-      NEWSLETTER
-==========================*/
 
 .newsletter{
     text-align:center;
@@ -552,10 +523,6 @@ nav a:hover{
     background:white;
 }
 
-/*==========================
-          FOOTER
-==========================*/
-
 footer{
     background:#050505;
     display:grid;
@@ -590,9 +557,6 @@ footer{
     padding-left:10px;
 }
 
-/*==========================
-        SCROLLBAR
-==========================*/
 
 ::-webkit-scrollbar{
     width:10px;
@@ -605,10 +569,6 @@ footer{
 ::-webkit-scrollbar-track{
     background:#111;
 }
-
-/*==========================
-        ANIMATION
-==========================*/
 
 .category-card,
 .product,
@@ -629,10 +589,6 @@ footer{
     }
 
 }
-
-/*==========================
-       RESPONSIVE
-==========================*/
 
 @media(max-width:992px){
 
@@ -842,10 +798,6 @@ margin-bottom:20px;
 color:#bbb;
 
 }
-/*==========================
-        CONTACT
-==========================*/
-
 .contact{
 display:flex;
 justify-content:space-between;
