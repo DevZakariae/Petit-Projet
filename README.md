@@ -1,16 +1,20 @@
 # ⌚ PARIS STORE | Luxury Watch Store
 
 <p align="center">
-  <a href="https://sparkling-fudge-6091e1.netlify.app/">
-    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Website-black?style=for-the-badge&logo=netlify" alt="Live Demo">
+  <a href="https://resilient-hamster-e3550d.netlify.app">
+    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Website-0066FF?style=for-the-badge&logo=netlify" alt="Live Demo">
   </a>
 </p>
 
+<h1 align="center">🚌 Wijhati</h1>
+
 <p align="center">
-  My First Web Development Project 🚀
+  A Simple and Modern Bus Booking Website
 </p>
 
----
+<p align="center">
+  My First React Web Development Project 🚀
+</p> 
 
 ## 👋 About Me
 
